@@ -8,6 +8,8 @@
 library(tidyverse)
 
 #reading in the csv file
+#this will open a pop-up through which you can locate the data
+#on your local drive
 pvcp_survey_data <- read_csv(file=file.choose())
 
 #Taking a look at the imported dataset
